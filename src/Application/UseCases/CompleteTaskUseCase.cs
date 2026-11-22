@@ -2,6 +2,9 @@ using Domain.Interfaces;
 
 namespace Application.UseCases;
 
+/// <summary>
+/// Use case: позначає завдання як виконане.
+/// </summary>
 public class CompleteTaskUseCase
 {
     private readonly ITaskRepository _repository;
